@@ -1,0 +1,11 @@
+Pessoa 1: Cria a classe abstrata Pessoa, definindo a base para Herança e Abstração.
+
+Pessoa 2: Desenvolve a classe Usuario (herdeira de Pessoa), focando em Encapsulamento e Sobreposição de Métodos.
+
+Pessoa 3: Desenvolve a classe Funcionario (também herdeira de Pessoa), com métodos void e com retorno.
+
+Pessoa 4: Cria a classe Livro, implementando construtores com e sem parâmetros e encapsulamento.
+
+Pessoa 5: Faz a classe Emprestimo, responsável pela Estrutura Lógica (if/else) para gerenciar as regras de empréstimo.
+
+Pessoa 6: Integra todas as classes na lógica principal do programa (Main), usando laços de repetição e estruturas de controle para demonstrar as funcionalidades.
