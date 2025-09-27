@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        Funcionario funcionario = new Funcionario("Vitória", 18, "SP-12 345-678", "12 3456-5678", "55555-0000", "123.456.789-00", "Bibliotecária",  1500.00);
+        funcionario.exibirInformacoes();
+        double bonus = funcionario.calcularBonus();
+        System.out.println("Bônus: R$" + bonus);
+    }
+}
