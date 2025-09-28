@@ -1,3 +1,5 @@
+package org.example.shared.Vitoria;
+
 public class Funcionario extends Pessoa {
     private String cargo;
     private double salario;

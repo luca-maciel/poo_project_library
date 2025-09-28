@@ -1,4 +1,4 @@
-package org.example;
+/*package org.example.shared.Lucas;
 
 public class Book extends Base {
     String title;
@@ -25,4 +25,4 @@ public class Book extends Base {
     void setAuthor_id(int author_id){
         this.author_id = author_id;
     }
-}
+} */
