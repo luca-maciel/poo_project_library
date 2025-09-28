@@ -1,0 +1,11 @@
+org.example.Pessoa 1: Cria a classe abstrata org.example.Pessoa, definindo a base para Herança e Abstração.
+
+org.example.Pessoa 2: Desenvolve a classe Usuario (herdeira de org.example.Pessoa), focando em Encapsulamento e Sobreposição de Métodos.
+
+org.example.Pessoa 3: Desenvolve a classe org.example.Funcionario (também herdeira de org.example.Pessoa), com métodos void e com retorno.
+
+org.example.Pessoa 4: Cria a classe Livro, implementando construtores com e sem parâmetros e encapsulamento.
+
+org.example.Pessoa 5: Faz a classe org.example.Emprestimo, responsável pela Estrutura Lógica (if/else) para gerenciar as regras de empréstimo.
+
+org.example.Pessoa 6: Integra todas as classes na lógica principal do programa (Main), usando laços de repetição e estruturas de controle para demonstrar as funcionalidades.

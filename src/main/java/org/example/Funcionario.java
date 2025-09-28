@@ -1,4 +1,4 @@
-package org.example.shared.Vitoria;
+package org.example;
 
 public class Funcionario extends Pessoa {
     private String cargo;
@@ -14,9 +14,18 @@ public class Funcionario extends Pessoa {
         this.salario = salario;
     }
 
+    public String getCargo() { return cargo;}
+    public void setCargo(String cargo) { this.cargo = cargo;}
+
+    public double getSalario() { return salario;}
+
+    public void setSalario(double salario) { this.salario = salario;}
+
     public void exibirInformacoes() {
-        System.out.println("Nome: " + getNome());
-        System.out.println("Idade: " + getIdade());
+        System.out.println("DADOS DO FUNCIONÁRIO");
+        super.exibirDados();
+        //System.out.println("Nome: " + getNome());
+        //System.out.println("Idade: " + getIdade());
         System.out.println("Cargo: " + cargo);
         System.out.println("Salário: R$ " + salario);
     }

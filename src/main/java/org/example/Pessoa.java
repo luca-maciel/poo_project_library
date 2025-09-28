@@ -1,3 +1,5 @@
+package org.example;
+
 public class Pessoa {
 
     private String nome;
@@ -5,12 +7,14 @@ public class Pessoa {
     private String telefone;
     private String cpf;
     private String rg;
+    private int idade;
 
     public Pessoa() {
     }
 
-    public Pessoa(String nome, String endereco, String telefone, String cpf, String rg) {
+    public Pessoa(String nome, int idade, String endereco, String telefone, String cpf, String rg) {
         this.nome = nome;
+        this.idade = idade;
         this.endereco = endereco;
         this.telefone = telefone;
         this.cpf = cpf;
@@ -32,9 +36,12 @@ public class Pessoa {
     public String getRg() { return rg; }
     public void setRg(String rg) { this.rg = rg; }
 
+    public int getIdade() { return idade; }
+    public void setIdade(int idade) { this.idade = idade; }
 
     public void exibirDados() {
         System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
         System.out.println("Endereço: " + endereco);
         System.out.println("Telefone: " + telefone);
         System.out.println("RG: " + rg);

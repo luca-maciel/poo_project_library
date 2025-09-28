@@ -1,6 +1,6 @@
-package org.example;
+/*package org.example.testes;
 import org.example.shared.Lucas.Book;
-import org.example.shared.Lucas.Autor;
+import org.example.Autor;
 
 import java.util.ArrayList;
 
@@ -11,4 +11,4 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello and welcome!");
     }
-}
+}*/

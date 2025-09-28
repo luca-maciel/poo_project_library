@@ -1,3 +1,5 @@
+/*package org.example.testes;
+
 public class usuariorod {
     public static void main(String[] args) {
         Usuario usuario1 = new Usuario ();
@@ -30,3 +32,4 @@ public class usuariorod {
         usuario1.exibirDados();
     }
 }
+*/

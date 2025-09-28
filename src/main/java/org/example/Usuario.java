@@ -1,3 +1,5 @@
+package org.example;
+
 public class Usuario extends Pessoa{
     private String cadastro;
     private String datanascimento;
@@ -13,8 +15,8 @@ public class Usuario extends Pessoa{
         this.ativo = true;
     }
 
-    public Usuario(String nome, String endereco, String telefone, String cpf, String rg, String cadastro, String datacadastro, String datanascimento, int limitelivros) {
-        super(nome, endereco, telefone, cpf, rg);
+    public Usuario(String nome, int idade, String endereco, String telefone, String cpf, String rg, String cadastro, String datacadastro, String datanascimento, int limitelivros) {
+        super(nome, idade, endereco, telefone, cpf, rg);
         this.cadastro = cadastro;
         this.datanascimento = datanascimento;
         this.livrosEmprestados = 0;

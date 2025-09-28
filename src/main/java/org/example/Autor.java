@@ -1,4 +1,4 @@
-package org.example.shared.Lucas;
+package org.example;
 
 public class Autor extends Base {
     private String nome;

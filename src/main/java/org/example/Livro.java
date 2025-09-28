@@ -1,6 +1,4 @@
-package org.example.shared.Gabriela;
-
-import org.example.shared.Lucas.Base;
+package org.example;
 
 public class Livro extends Base {
     private String titulo;

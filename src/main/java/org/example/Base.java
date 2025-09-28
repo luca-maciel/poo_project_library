@@ -1,4 +1,4 @@
-package org.example.shared.Lucas;
+package org.example;
 
 public abstract class Base {
     protected int id;
