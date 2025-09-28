@@ -8,6 +8,8 @@ public abstract class Base {
         ativo = false;
     }
 
+    public void ativar(){ ativo = true; }
+
    public int getId(){
         return id;
     }
