@@ -10,7 +10,7 @@ public abstract class Base {
 
     public void ativar(){ ativo = true; }
 
-   public int getId(){
+    public int getId(){
         return id;
     }
 
